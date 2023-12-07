@@ -11,7 +11,7 @@ http://themeforest.net/licenses
         <meta charset="utf-8">
 
         <!-- Page Title Here -->
-        <title>Timex - Landing page Coming Soon responsive template</title>
+        <title>Rivanto Store - Moda sostenible</title>
 		
         <!-- Page Description Here -->
 		<meta name="description" content="A responsive coming soon template, un template HTML pour une page en cours de construction">
@@ -39,70 +39,52 @@ http://themeforest.net/licenses
         <link rel="stylesheet" href="./css/main.css">
         <link rel="stylesheet" href="./css/main_responsive.css">
         <link rel="stylesheet" href="./css/style-color1.css">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
         
         <script src="./js/vendor/modernizr-2.7.1.min.js"></script>
     </head>
     <body id="menu" class="alt-bg">
         <!--[if lt IE 8]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <p class="browsehappy">Está utilizando un navegador <strong>desactualizado</strong>. Por favor <a href="http://browsehappy.com/">actualice su navegador</a> para tener una experiencia óptima.</p>
         <![endif]-->
         
         <!-- Page Loader -->
         <div class="page-loader" id="page-loader">
-            <div><i class="ion ion-loading-d"></i><p>loading</p></div>
+            <div><i class="ion ion-loading-d"></i><p>cargando</p></div>
         </div>
         
-        <!-- BEGIN OF site header Menu -->
-		<!-- Add "material" class for a material design style -->
-		<header class="header-top">
-			
-            <div class="menu clearfix">
-                <a href="#about-us">about</a>
-				
-                <!--<div class="menu-cont">
-					<p class="text">Menu cont</p>
-					<ul class="sub-menu">
-						<li><a href="htp://page">My Page</a></li>
-					</ul>
-				</div>-->
-				<!-- Add other menu similar to "about" here -->
-                <a href="#contact">contact</a>
-            </div>
-		</header>
-        <!-- END OF site header Menu-->
-        
+
         <!-- BEGIN OF Quick nav icons at left -->
 		<nav class="quick-link count-4 nav-left">
 			<div class="logo">
 				<a href="#home">
-					<img src="img/logo_only.png" alt="Logo Brand">
+					<img src="img/solo_icono.svg" alt="Logo Brand">
 				</a>
 			</div>
 			<ul id="qmenu" class="qmenu">
 				<li data-menuanchor="home">
 					<a href="#home" class=""><i class="icon ion ion-home"></i>
 					</a>
-					<span class="title">Home page</span>
+					<span class="title">Inicio</span>
+				</li>
+				<li data-menuanchor="contact">
+					<a href="#algunos-datos"><i class="icon ion ion-ios7-analytics-outline"></i>
+					</a>
+					<span class="title">Algunos datos</span>
 				</li>
 				<li data-menuanchor="register">
-					<a href="#register"><i class="icon ion ion-compose"></i>
+					<a href="#que-intentamos-lograr"><i class="icon ion ion-ios7-flag-outline"></i>
 					</a>
-					<span class="title">Stay in touch</span>
+					<span class="title">¿Qué intentamos lograr?</span>
 				</li>
 				<li data-menuanchor="about-us">
-					<a href="#about-us"><i class="icon ion ion-android-information"></i>
+					<a href="#por-que-costa-rica"><i class="icon ion ion-compass"></i>
 					</a>
-					<span class="title">About Us</span>
-				</li>
-				<!--<li data-menuanchor="contact">
-					<a href="#contact"><i class="icon ion ion-android-call"></i>
-					</a>
-					<span class="title">Contact</span>
-				</li>-->
-				<li data-menuanchor="contact">
-					<a href="#contact"><i class="icon ion ion-email"></i>
-					</a>
-					<span class="title">Contact</span>
+					<span class="title">¿Por qué Costa Rica?</span>
 				</li>
 			</ul>
 		</nav>
@@ -113,31 +95,20 @@ http://themeforest.net/licenses
         <!-- BEGIN OF site cover -->
         <div class="page-cover" id="s-cover">
             <!-- Cover Background -->
-            <div class="cover-bg pos-abs full-size bg-img" data-image-src="img/bg-default.jpg"></div>
+<!--            <div class="cover-bg pos-abs full-size bg-img" data-image-src="img/bg-default.jpg"></div>-->
 			
             <!-- BEGIN OF Slideshow Background -->
-            <!--<div class="cover-bg pos-abs full-size slide-show">
-				<i class='img' data-src='./img/bg-slide1.jpg'></i>
-				<i class='img' data-src='./img/bg-slide2.jpg'></i>
-				<i class='img' data-src='./img/bg-slide3.jpg'></i>
-				<i class='img' data-src='./img/bg-slide4.jpg'></i>
-			</div>-->
+            <div class="cover-bg pos-abs full-size slide-show">
+				<i class='img' data-src='./img/bg-slide1.png'></i>
+				<i class='img' data-src='./img/bg-slide2.png'></i>
+				<i class='img' data-src='./img/bg-slide3.png'></i>
+				<i class='img' data-src='./img/bg-slide4.png'></i>
+			</div>
             <!-- END OF Slideshow Background -->
-            
-            <!--BEGIN OF Static video bg  - uncomment below to use Video as Background-->
-            <!--<div id="container" class="video-container show-for-medium-up">
-                <video autoplay="autoplay" loop="loop" autobuffer="autobuffer" muted="muted"
-                       width="640" height="360">
-                    <source src="vid/flower_loop.mp4" type="video/mp4">
-                </video>
-            </div>-->
-            <!--END OF Static video bg-->
-			
-			<!-- Solid color as background -->
-<!--            <div class="cover-bg pos-abs full-size bg-color" data-bgcolor="#3151ff"></div>-->
+
 			
 			<!-- Solid color as filter -->
-            <div class="cover-bg-mask pos-abs full-size bg-color" data-bgcolor="rgba(0, 0, 0, 0.41)"></div>
+            <div class="cover-bg-mask pos-abs full-size bg-color" data-bgcolor="rgba(0, 0, 0, 0.61)"></div>
             
         </div>
         <!--END OF site Cover -->
@@ -147,10 +118,6 @@ http://themeforest.net/licenses
 			<div class="content">
 				<!-- Clock -->
 				<div class="clock clock-countdown">
-					<div class="site-config"
-						 data-date="12/31/2017 00:00:00" 
-						 data-date-timezone="+0"
-						 ></div>					
 					<!--<div class="elem-center">
 						<div class="digit">
 							<span class="days">00</span>
@@ -160,30 +127,17 @@ http://themeforest.net/licenses
 					<!-- Logo instead -->
 					<div class="logo">
 						<a href="#">
-							<img src="img/logo_only.png">
+							<img src="img/logo_only.svg">
 						</a>
 					</div>
 					
-					<div class="elem-bottom">
-						<div class="deco"></div>
-						
-						<span class="days">00</span><span class="thin">D</span>
-						<span class="hours">00</span><span class="thin">H</span>
-						<span class="minutes">00</span><span class="thin">MN</span>
-						<span class="seconds">00</span><span class="thin">S</span>
-					</div>
-				</div> 
-				
-				
-				<footer>
-					<p>Before we launch our <strong>new website</strong></p>
-				</footer>                
+				</div>
 			</div> 
 		</div>
 		<!-- End of timer pane -->
         
         <!-- BEGIN OF site main content content here -->
-        <main class="page-main" id="mainpage">             
+        <main class="page-main" id="mainpage">
             
 			<!-- Begin of home page -->
 			<div class="section page-home page page-cent" id="s-home">
@@ -197,21 +151,21 @@ http://themeforest.net/licenses
 					
 					<header class="header">
 						<div class="h-left">
-							<h2>New <strong>Company</strong></h2>
+							<h2>una <strong>Compañía</strong></h2>
 						</div>
 						<div class="h-right">
-							<h3>Lorem <br>product</h3>
-							<h4 class="subhead"><a href="#register">Available here soon</a></h4>
+							<h3>Para la <br>moda</h3>
+							<h4 class="subhead"><a href="#register">Sostenible</a></h4>
 						</div>
 					</header>
 				</section>
 				
 				<!-- Scroll down button -->
                 <footer class="p-footer p-scrolldown">
-                    <a href="#register">
+                    <a href="#algunos-datos">
                         <div class="arrow-d">
-							<div class="before">Scroll</div>
-							<div class="after">Down</div>
+							<div class="before">Algunos</div>
+							<div class="after">Datos</div>
 							<div class="circle"><i class="ion ion-mouse"></i></div>
 						</div>
                     </a>                        
@@ -221,60 +175,74 @@ http://themeforest.net/licenses
             
            
             
-            <!-- Begin of register page -->
-            <div class="section page-register page page-cent"  id="s-register">
-                <section class="content">
-                    <header class="p-title">
-                        <h3>Register <i class="ion ion-compose"></i></h3> 
-						<h4 class="subhead">Register to get our latest news</h4>
-                    </header>
-                    <div>
-                        <form id="mail-subscription" class="form magic send_email_form" method="get" action="ajaxserver/serverfile.php">
-                            <p class="invite">Please, write your email below to stay in touch with us :</p>
-							<div class="fields clearfix">
-								<div class="input">
-									<label for="reg-email">Email </label>
-									<input id="reg-email" class="email_f"  name="email" type="email" required placeholder="your@email.address" data-validation-type="email"></div>
-								<div class="buttons">
-									<button id="submit-email" class="button email_b" name="submit_email">Ok</button>
-								</div>
-							</div>
-                            
-                            <p class="email-ok invisible"><strong>Thank you</strong> for your subscription. We will inform you.</p>
-                        </form>
-                    </div>
-                </section>
-                <footer class="p-footer p-scrolldown">
-                    <a href="#about-us">
-                        <div class="arrow-d">
-							<div class="before">About</div>
-							<div class="after">Lorem</div>
+            <!-- Begin of algunos datos page -->
+			<div class="section page-about page page-cent" id="s-algunos-datos">
+				<section class="content">
+					<header class="p-title">
+						<h3>Algunos datos<i class="ion ion-ios7-analytics-outline">
+						</i>
+						</h3>
+						<h4 class="subhead">La <span class="bold">moda</span> como <span class="bold">contaminante</span> global</h4>
+					</header>
+					<article class="text">
+
+						<p><strong>Contaminación del Agua y Degradación del Suelo: </strong>El proceso de producción en la industria de la moda lleva a la contaminación del agua
+							y a la degradación del suelo. Además, las prendas sintéticas al lavarse liberan microfibras que terminan en los océanos, contribuyendo significativamente
+							a la contaminación marina. Anualmente, se envían aproximadamente 500 mil toneladas de microfibras a los océanos.
+							<br>
+							<a href="https://unamglobal.unam.mx/global_revista/la-industria-de-la-moda-la-segunda-mas-contaminante-del-mundo/">La industria de la moda: la segunda más contaminante del mundo</a>
+							<br>
+							<a href="https://www.eltiempo.com/vida/medio-ambiente/el-impacto-ambiental-de-la-industria-de-la-moda-664321">El mercado textil: hilos tenaces, negocio insostenible</a></p>
+
+						<!-- ******************************************************************* -->
+
+						<p><strong>Emisiones de Carbono: </strong>La industria de la moda es responsable de aproximadamente el 10% de las emisiones de carbono a nivel mundial, una cantidad mayor que la sumada de los vuelos internacionales y el transporte marítimo.
+						Se estima que estas emisiones podrían aumentar casi un 50% para 2030 si se mantiene el actual enfoque de negocios.
+							<br>
+							<a href="https://www.europarl.europa.eu/news/es/headlines/society/20201208STO93327/el-impacto-de-la-produccion-textil-y-de-los-residuos-en-el-medio-ambiente">El impacto de la producción textil y de los residuos en el medio ambiente</a>
+
+						<!-- ******************************************************************* -->
+
+						<p><strong>Residuos Textiles: </strong>Casi el 85% de la ropa termina en vertederos cada año. La mayoría de la ropa usada se incinera o se deposita en vertederos, con solo una pequeña fracción siendo reciclada para convertirse en ropa nueva.
+							<br>
+							<a href="https://www.businessinsider.es/impacto-moda-medio-ambiente-terrible-saber-514379">La industria de la moda emite más carbono que los vuelos internacionales y el transporte marítimo juntos</a>
+
+
+
+
+					</article>
+				</section>
+				<footer class="p-footer p-scrolldown">
+					<a href="#contact">
+						<div class="arrow-d">
+							<div class="before">Nuestro</div>
+							<div class="after">Objetivo</div>
 							<div class="circle"><i class="ion ion-mouse"></i></div>
 						</div>
-                    </a>                        
-                </footer>
-            </div>
+					</a>
+				</footer>
+			</div>
             <!-- End of register page -->
             
             <!-- Begin of about us page -->
-            <div class="section page-about page page-cent" id="s-about-us">
+            <div class="section page-about page page-cent" id="s-que-intentamos-lograr">
                 <section class="content">
                     <header class="p-title">
-                        <h3>About Us<i class="ion ion-android-information">
+                        <h3>¿Qué intentamos lograr?<i class="ion ion-android-information">
                             </i>
                         </h3>
-						<h4 class="subhead">We <span class="bold">make</span> only <span class="bold">beautiful</span> things</h4>
+						<h4 class="subhead">Un cambio <span class="bold">cultural</span> de la moda con la  <span class="bold">sostenibilidad</span> en mente</h4>
                     </header>
                     <article class="text">
-                        <p>Lorem ipsum <strong>magicum </strong>dolor sit amet, consectetur adipiscing elit. Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla.</p>
-                        <p>Aenean ultricies odio at erat facilisis tincidunt. Fusce tempor auctor justo, nec facilisis quam vehicula vel. Aenean non mattis purus, eget lobortis odio. </p>
+                        <p>Con Rivanto, la <strong>sostenibilidad</strong> es un pilar esencial. Nuestro objetivo es crear una plataforma para que las personas en Costa Rica puedan comprar y vender artículos de vestimenta de segunda mano que se encuentren en óptimo estado y de esta forma reducir la necesidad de adquirir productos nuevos.</p>
+                        <p>Para lograr esto, planeamos convertir a Rivanto en una plataforma para que adquirir productos de segunda mano se vuelva <strong>trending</strong>, de esta forma, logramos evitar que los productos de Rivanto se relacionen con productos de segunda mano que puedan estar sucios o en mal estado.</p>
                     </article>
                 </section>
                 <footer class="p-footer p-scrolldown">
                     <a href="#contact">
                         <div class="arrow-d">
-							<div class="before">Contact</div>
-							<div class="after">Message</div>
+							<div class="before">Costa </div>
+							<div class="after">Rica</div>
 							<div class="circle"><i class="ion ion-mouse"></i></div>
 						</div>
                     </a>                        
@@ -283,152 +251,30 @@ http://themeforest.net/licenses
             <!-- End of about us page -->
                 
             <!-- Begin of Contact page   -->
-            <div class="section page-contact page page-cent  bg-color" data-bgcolor="rgba(95, 25, 208, 0.88)s" id="s-contact">
-				<!-- Begin of contact information -->
-				<div class="slide" id="s-information" data-anchor="information">
-					<section class="content">
-						<header class="p-title">
-							<h3>Contact<i class="ion ion-location">
-								</i>
-							</h3>
-							<ul class="buttons">
-								<li class="show-for-medium-up">
-									<a title="About" href="#about-us" ><i class="ion ion-android-information"></i></a>
-								</li>
-								<!--<li>
-									<a title="Contact" href="#contact/information"><i class="ion ion-location"></i></a>
-								</li>-->
-								<li>
-									<a title="Message" href="#contact/message"><i class="ion ion-email"></i></a>
-								</li>
-							</ul>
-						</header>
-						<!-- Begin Of Page SubSction -->
-						<div class="contact">
-							<div class="row">
-								<div class="medium-6 columns left">
-									<ul>
-										<li>
-											<h4>Email</h4>
-											<p><a href="mailto://contact@mail.com">contactemail@mail.com</a></p>
-										</li>
-										<li>
-											<h4>Address</h4>
-											<p>99 Location Street
-											<br>Antartica SP</p>
-										</li>
-										<li>
-											<h4>Phone</h4>
-											<p>+999 123 456 89</p>
-										</li>
-									</ul>
-								</div>
-								<div class="medium-6 columns social-links right">
-									<ul>
+			<div class="section page-about page page-cent" id="s-por-que-costa-rica">
+				<section class="content">
+					<header class="p-title">
+						<h3>¿Por qué Costa Rica?<i class="ion ion ion-compass">
+						</i>
+						</h3>
+						<h4 class="subhead">La tierra del <span class="bold">Pura Vida</span> como casa de la conservación <span class="bold">ambiental</span></h4>
+					</header>
+					<article class="text">
+						<p>Somos mundialmente conocidos no solo por el <strong>Pura vida<strong>, si no también por <strong>proteger</strong> nuestra biodiversidad.
+							En Costa Rica habitan más de 120.000 distintas especies de flora y fauna, aproximadamente un <strong>6.5%</strong> de la biodiversidad del mundo con tan solo una superficie del <strong>0.03%</strong> del planeta.
+							No hay nada más <strong>Pura vida</strong> que proteger aquello que nos representa mundialmente, activando la economía local y la sostenibilidad social. <a href="https://www.periodicomensaje.com/ambientales/5085-costa-rica-es-uno-de-los-25-paises-mas-biodiversos-del-mundo">Costa Rica es uno de los 25 países más biodiversos del mundo</a>.</p>
+						<p>El proyecto tiene como uno de los objetivos, obtener el licenciamiento <strong>Escencial Costa Rica</strong>, debido a que consideramos que este licenciamiento brinda confianza entre los consumidores y refleja la calidad del producto y se alinea perfectamente con los valores de sostenibilidad social y de biodiversidad que tiene nuestro proyecto.</p>
 
-										<!-- legal notice -->
-										<li class="show-for-medium-up">
-											<h4>Website</h4>
-											<p><a href="http://www.highhay.com">www.highhay.com</a></p>
-										</li>
-										<li  class="show-for-medium-up">
-											<h4>Find us on</h4>
-											<!-- Begin of Social links -->
-											<div class="socialnet">
-												<a href="#"><i class="ion ion-social-facebook"></i></a>
-												<a href="#"><i class="ion ion-social-instagram"></i></a>
-												<a href="#"><i class="ion ion-social-twitter"></i></a>
-												<a href="#"><i class="ion ion-social-pinterest"></i></a>
-												<a href="#"><i class="ion ion-social-tumblr"></i></a>
-											</div>
-											<!-- End of Social links -->
-										</li>
-										<li>
-											<p><img src="img/logo_large.png" alt="Logo" class="logo"></p>
-											<p class="small">Bientot by <strong><a href="http://highhay.com">Brand</a></strong>. All right reserved 2015</p>
-										</li>
-									</ul>
-
-								</div>
-							</div>
-						</div>
-						<!-- End of page SubSection -->
-					</section>  
-				</div>
-				<!-- end of contact information -->
-				
-				<!-- begin of contact message --> 
-				<div class="slide" id="s-message" data-anchor="message">
-					<section class="content">
-						<header class="p-title">
-							<h3>Write to us<i class="ion ion-email">
-								</i>
-							</h3>
-							<ul class="buttons">
-								<li class="show-for-medium-up">
-									<a title="About" href="#about-us"><i class="ion ion-android-information"></i></a>
-								</li>
-								<li>
-									<a title="Contact" href="#contact/information"><i class="ion ion-location"></i></a>
-								</li>
-								<!--<li>
-									<a title="Message" href="#contact/message"><i class="ion ion-email"></i></a>
-								</li>-->
-							</ul>
-						</header>
-						<!-- Begin Of Page SubSction -->
-						
-						<div class="page-block c-right v-zoomIn">
-							<div class="wrapper">
-								<div>
-									<form class="message form send_message_form" method="get" action="ajaxserver/serverfile.php">
-										<div class="fields clearfix">
-											<div class="input">
-												<label for="mes-name">Name </label>
-												<input id="mes-name" name="name" type="text" placeholder="Your Name" required></div>
-											<div class="buttons">
-												<button id="submit-message" class="button email_b" name="submit_message">Ok</button>
-											</div>
-										</div>
-										<div class="fields clearfix">
-											<div class="input">
-												<label for="mes-email">Email </label>
-												<input id="mes-email" type="email" placeholder="Email Address" name="email" required>
-											</div>
-										</div>
-										<div class="fields clearfix no-border">
-											<label for="mes-text">Message </label>
-											<textarea id="mes-text" placeholder="Message ..." name="message" required></textarea>
-
-											<div>
-												<p class="message-ok invisible">Your message has been sent, thank you.</p>
-											</div>
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>
-						<!-- End Of Page SubSction -->
-					</section>
-						
-				</div>
-				<!-- End of contact message -->
-            </div>
+						<p>De esta forma, Rivanto Store pretende obtener visibilidad y prestigio suficiente para extenderse a otros paises de la región, también ubicados en centro américa, esto debido a que consideramos que los paises de la región cercanos tales como Honduras, El Salvador, Guatemala, Nicaragua, Panamá y Colombia, poseen características similares a Costa Rica en términos de impacto ambiental y la necesidad de reactivación económica.</p>
+					</article>
+				</section>
+			</div>
             <!-- End of Contact page  -->   
         
         </main>
 
         <!-- END OF site main content content here -->  
-		
-		<!-- Begin of site footer -->
-		<footer class="page-footer">
-			<div>
-				<a href="http://www.facebook.com/highhay" target="_blank"><i class="ion icon ion-social-facebook"></i></a>
-				<a href="http://www.instagram.com/miradontsoa" target="_blank"><i class="ion icon ion-social-instagram"></i></a>
-				<a href="http://twitter.com/miradontsoa" target="_blank"><i class="ion icon ion-social-twitter"></i></a>
-			</div>
-		</footer>
-		<!-- End of site footer -->
+
 
         
 <!--        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
@@ -446,12 +292,6 @@ http://themeforest.net/licenses
         <script src="./js/vegas/vegas.min.js"></script>
         <script src="./js/jquery.maximage.js"></script>
         <script src="./js/okvideo.min.js"></script>-->
-		
-		<!-- Downcount JS -->
-        <script src="./js/jquery.downCount.js"></script>
-		
-		<!-- Form script -->
-        <script src="./js/form_script.js"></script>
         
 		<!-- Javascript main files -->
         <script src="./js/main.js"></script>
